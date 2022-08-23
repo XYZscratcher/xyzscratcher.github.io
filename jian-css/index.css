@@ -6,6 +6,9 @@ strong{
     padding: 1.2em;
     margin: auto;
 }
+p{
+    font-size:16px;
+}
 .btn{
     border: none;
     color: white;
