@@ -29,16 +29,16 @@ h4 {
 }
 @media screen and (min-width:900px){
 h1{
-    font-size: calc(5vh - 8px);
+    font-size: calc(5vmin - 8px);
 }
 h2{
-    font-size: calc(4vh - 8px);
+    font-size: calc(4vmin - 8px);
 }
 h3{
-    font-size: calc(3.4vh - 8px);
+    font-size: calc(3.4vmin - 8px);
 }
 h4{
-    font-size: clac(3vh - 8px);
+    font-size: clac(3.2vmin - 4px);
 }}
 :root{
     font-size: 18px;
