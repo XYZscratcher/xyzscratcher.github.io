@@ -21,7 +21,6 @@ p{
     cursor: pointer;
 }
 .pri{
-    border: none;
     color: white;
     background-color:var(--blue);
 }
