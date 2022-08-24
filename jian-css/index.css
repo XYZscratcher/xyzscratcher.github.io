@@ -9,11 +9,6 @@ strong{
 p{
     font-size:16px;
 }
-.pri{
-    border: none;
-    color: white;
-    background-color:var(--blue);
-}
 .btn{
     color: var(--blue);
     background-color: white;
@@ -24,6 +19,11 @@ p{
     text-align: center;
     display: inline-block;
     cursor: pointer;
+}
+.pri{
+    border: none;
+    color: white;
+    background-color:var(--blue);
 }
 :is(.btn,.pri):active{
     box-shadow: 0 0 5px;
