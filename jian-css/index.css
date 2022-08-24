@@ -9,17 +9,24 @@ strong{
 p{
     font-size:16px;
 }
-.btn{
+.pri{
     border: none;
     color: white;
     background-color:var(--blue);
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: calc(0.5vh + 10px);
-    margin: 4px;
-    border-radius: 5px;
+}
+.btn{
+    color: var(--blue);
+    background-color: white;
+    border: solid var(--blue);
     padding: 10px;
+    margin: 4px;
+    font-size: calc(0.5vh + 10px);
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+:is(.btn,.pri):active{
+    box-shadow: 0 0 5px;
 }
 hr{
     border: solid var(--blue);
@@ -51,7 +58,6 @@ body{
     line-height: 1.5;
 }
 a:not(.btn){
-    text-decoration: none;
     color: var(--blue);
 }
 td, th {
@@ -59,4 +65,13 @@ td, th {
     text-align: left;
     border-bottom: solid #eee;
     font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+input,.btn{
+    border-radius: 5px;
+}
+input:focus{
+    border: var(--blue);
 }
