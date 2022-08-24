@@ -17,7 +17,7 @@ p{
     text-decoration: none;
     display: inline-block;
     font-size: calc(0.5vh + 10px);
-    margin: 4px 2px;
+    margin: 4px;
     border-radius: 5px;
     padding: 10px;
 }
@@ -58,5 +58,5 @@ td, th {
     padding: 0.7em;
     text-align: left;
     border-bottom: solid #eee;
-    font-size: 16px;
+    font-size: 18px;
 }
