@@ -1,5 +1,6 @@
 .dark{
     filter: invert(100%);
+    background-color:black;
 }
 .dark img {
     filter: invert(100%);
