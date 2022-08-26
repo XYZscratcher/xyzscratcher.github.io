@@ -5,11 +5,11 @@
 .dark img {
     filter: invert(100%);
 }
-strong{
-    color:red;
-}
+
+
+
 .c{
-    max-width: 62em;
+    max-width: 60em;
     padding: 1.2em;
     margin: auto;
 }
@@ -22,7 +22,7 @@ p{
     border: solid var(--blue);
     padding: 10px;
     margin: 4px;
-    font-size: calc(0.5vh + 10px);
+    font-size: calc(0.5vh + 8px);
     text-align: center;
     display: inline-block;
     cursor: pointer;
@@ -40,7 +40,7 @@ h3,
 h4 {
     font-weight: 300;
 }
-@media screen and (min-width:900px){
+@media screen and (min-height:900px){
 h1{
     font-size: calc(5vh - 8px);
 }
@@ -54,7 +54,7 @@ h4{
     font-size: calc(3.2vh - 10px);
 }}
 :root{
-    font-family: system-ui, Helvetica, sans-serif;
+    font-family: system-ui, Helvetica Neno, sans-serif;
     --blue:#0d6efd;
 }
 body{
@@ -66,7 +66,7 @@ a:not(.btn){
 td, th {
     padding: 0.7em;
     text-align: left;
-    border-bottom: solid #eee;
+    border-bottom: solid #aaa;
     font-size: 16px;
 }
 a{
