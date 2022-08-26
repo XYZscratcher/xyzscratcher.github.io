@@ -75,3 +75,9 @@ input,.btn{
 input:focus{
     border: var(--blue);
 }
+.card{
+    border: solid #d8d8d8;
+    margin-bottom: 1.25em;
+    padding: 1.25em;
+    background: #f2f2f2;
+}
