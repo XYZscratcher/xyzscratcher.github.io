@@ -82,6 +82,7 @@ input{
     line-height: 1.5;
     border: 1px solid #ced4da;
     margin: 12px 0;
+    outline-color: transparent;
 }
 .card{
     border: solid #d8d8d8;
