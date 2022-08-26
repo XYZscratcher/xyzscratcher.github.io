@@ -73,14 +73,14 @@ input,.btn{
     border-radius: 5px;
 }
 input:focus{
-    border: solid var(--blue);
+    border: 3px solid var(--blue);
 }
 input{
     display: block;
     padding: .375rem .75rem;
     font-size: 1em;
     line-height: 1.5;
-    border: 3px solid #ced4da;
+    border: 1px solid #ced4da;
     margin: 12px 0;
 }
 .card{
