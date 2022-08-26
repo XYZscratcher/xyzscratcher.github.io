@@ -1,10 +1,11 @@
-.dark{
+@media (prefers-color-scheme: dark) {
+body{
     filter: invert(100%);
     background-color:black;
 }
-.dark img {
+img{
     filter: invert(100%);
-}
+}}
 .c{
     max-width: 60em;
     padding: 1.2em;
