@@ -73,7 +73,7 @@ input,.btn{
     border-radius: 5px;
 }
 input:focus{
-    border: var(--blue);
+    border: solid var(--blue);
 }
 input{
     display: block;
