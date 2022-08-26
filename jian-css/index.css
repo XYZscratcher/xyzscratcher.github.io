@@ -2,6 +2,7 @@
 body{
     filter: invert(100%);
     background-color:black;
+    --bg-card: #007;
 }
 img{
     filter: invert(100%);
@@ -85,7 +86,7 @@ input{
     margin: 12px 0;
 }
 .card{
-    border: solid #d8d8d8;
+    border: solid var(--bg-card,#d8d8d8);
     margin-bottom: 1.25em;
     padding: 1.25em;
     background: #f2f2f2;
