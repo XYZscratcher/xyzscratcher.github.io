@@ -80,7 +80,7 @@ input{
     padding: .375rem .75rem;
     font-size: 1em;
     line-height: 1.5;
-    border: 1px solid #ced4da;
+    border: 3px solid #ced4da;
     margin: 12px 0;
 }
 .card{
