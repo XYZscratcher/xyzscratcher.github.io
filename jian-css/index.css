@@ -81,6 +81,7 @@ input{
     font-size: 1em;
     line-height: 1.5;
     border: 1px solid #ced4da;
+    margin: 12px 0;
 }
 .card{
     border: solid #d8d8d8;
