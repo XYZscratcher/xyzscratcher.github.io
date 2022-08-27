@@ -23,7 +23,7 @@
             <tbody>
                 <tr>
                     <td title="已清除所有缩进、注释和不必要的空格，但未压缩">实际大小</td>
-                    <td>828个字符</td>
+                    <td>974个字符</td>
                     <td>997个字符</td>
                 </tr>
             </tbody>
@@ -80,7 +80,22 @@
             </tbody>
         </table>
         <h3>列表</h3>
-        <p></p>
+        <p>和普通的HTML类似：</p>
+        <ul>
+            <li>1111</li>
+            <li>222</li>
+            <li>
+                <ol>
+                    <li>111</li>
+                    <li>222</li>
+                    <li>
+                        <ul>
+                            <li>11</li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+        </ul>
         <h3>表单</h3>
         <p>同样非常简单：</p>
         <form>
@@ -91,5 +106,8 @@
         <h3>卡片</h3>
         <p>只需添加 .card 类：</p>
         <div class="card"><h1>hello!</h1><p>一张卡片</p></div>
+        <h3>主题颜色</h3>
+        <p>只需将“--blue”变量改为你喜欢的颜色即可：</p>
+        <button class="btn pri" onclick="document.body.style.setProperty('--blue','#f1f')"></button>
     </body>
 </html>
