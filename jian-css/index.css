@@ -36,6 +36,7 @@ h2,
 h3,
 h4 {
     font-weight: 300;
+    line-height: 1.2;
 }
 @media screen and (min-height:900px){
 h1{
