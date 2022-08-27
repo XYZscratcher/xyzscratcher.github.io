@@ -1,10 +1,10 @@
-.dark{
+/*.dark{
     filter: invert(100%);
     background-color:black;
 }
 .dark img{
     filter: invert(100%);
-}
+}*/
 .c{
     max-width: 60em;
     padding: 1.2em;
