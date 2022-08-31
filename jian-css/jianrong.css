@@ -1,0 +1,111 @@
+:root {
+    font-family: system-ui, Helvetica, sans-serif;
+}
+
+body {
+    line-height: 1.618;
+}
+
+.c {
+    max-width: 60em;
+    padding: 1.2em;
+    margin: auto;
+}
+
+p {
+    font-size: 16px;
+}
+
+.btn {
+    color: #0d6efd;
+    background-color: white;
+    border: solid #0d6efd;
+    padding: 6px 10px;
+    margin: 4px;
+    font-size: calc(0.5vh + 10px);
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.pri {
+    color: white;
+    background-color: #0d6efd;
+}
+
+hr {
+    border: 1px solid #0d6efd;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+@media screen and (min-height:900px) {
+    h1 {
+        font-size: calc(5vh - 8px);
+    }
+
+    h2 {
+        font-size: calc(4vh - 8px);
+    }
+
+    h3 {
+        font-size: calc(3.5vh - 8px);
+    }
+
+    h4 {
+        font-size: calc(3.2vh - 10px);
+    }
+}
+
+a:not(.btn) {
+    color: #0d6efd;
+}
+
+table {
+    width: 100%;
+}
+
+td,
+th {
+    padding: 0.7em;
+    text-align: left;
+    border-bottom: solid #ddd;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,
+.btn,
+.card {
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: 1.618px solid #0d6efd;
+    /*box-shadow: 0 0 1.618px 4px skyblue;*/
+}
+
+input {
+    display: block;
+    padding: 6px 10px;
+    font-size: 1em;
+    line-height: 1.618;
+    border: 1px solid #ced4da;
+    margin: 12px 0;
+    width: 95%;
+}
+
+.card {
+    border: solid #d8d8d8;
+    margin-bottom: 1.25em;
+    padding: 1.25em;
+}
