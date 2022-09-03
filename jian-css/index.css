@@ -6,7 +6,7 @@
     filter: invert(100%);
 }*/
 :root{
-    font-family: system-ui, Helvetica, sans-serif;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --blue:#0d6efd;
 }
 body{
