@@ -9,6 +9,9 @@
     --success:rgb(25,135,84);
     --info:rgb(13,202,240)
 }
+*{
+    box-sizing: border-box;
+}
 body{
     line-height: 1.618;
 }
