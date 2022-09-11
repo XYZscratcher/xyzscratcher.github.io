@@ -38,6 +38,15 @@ h4 {
     font-weight: 300;
     line-height: 1.2;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+}
 @media screen and (min-width:576px){
 h1{
     font-size: calc(5vh - 8px);
@@ -136,15 +145,6 @@ input{
     border: solid #d8d8d8;
     margin-bottom: 1.25em;
     padding: 1.25em;
-}
-.row{
-    display: flex;
-    flex-wrap: wrap;
-}
-.row>* {
-    flex-shrink: 0;
-    width: 100%;
-    max-width: 100%;
 }
 /*@media (min-width: 576px){ 
     .col-2 {
