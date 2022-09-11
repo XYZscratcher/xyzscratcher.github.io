@@ -165,7 +165,7 @@ input,.btn,.card{
     border-radius: 5px;
 }
 input:focus{
-    outline: 1.618px solid var(--main);
+    border: 1.618px solid var(--main);
     /*box-shadow: 0 0 1.618px 4px skyblue;*/
 }
 input{
@@ -175,7 +175,7 @@ input{
     line-height: 1.618;
     border: 1px solid #ced4da;
     margin: 12px 0;
-    width: 95%;
+    width: 100%;
 }
 .card{
     border: solid #d8d8d8;
