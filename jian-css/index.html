@@ -33,14 +33,14 @@
             </tbody>
         </table>-->
         <h2 id="docs">演示</h2>
-        <h3>按钮</h3>
+        <h3 id="btn">按钮</h3>
         <p>只要加上 .btn类 ，就能将普通按钮或链接变成一个好看的按钮：</p>
         <button class="btn">一个次要按钮</button>
         <a class="btn"href="#">次要的链接按钮</a>
         <p>在使用 .btn 类的基础上，加入 .pri 类即可变成一个主要按钮：</p>
         <button class="btn pri">一个主要按钮</button>
         <a href="#"class="btn pri">主要的链接按钮</a>
-        <h3>字的样式</h3>
+        <h3 id="font">字的样式</h3>
         <p>文本效果遵循浏览器默认样式：</p>
         <p>这是<strong>重要的</strong><br><b>粗体</b><br><em>同样重要的</em><br><i>斜体</i><br><mark>还有标记</mark></p>
         <p>当然，还有标题：</p>
@@ -49,7 +49,7 @@
         <h3>这是三级标题</h3>
         <h4>这是四级标题</h4>
         <br>
-        <h3>网格布局</h3>
+        <h3 id="flex">网格布局</h3>
         <p>你可以使用 .row 类创建一行，使用 .col-n（n=1~12）来添加需要的列。最多为12列。在小屏幕下将会上下堆叠排版：</p>
         <div class="row">
             <div class="col-1 pri padding-15">.col-1</div>
@@ -65,7 +65,7 @@
             <div class="col-6 pri padding-15">.col-6</div>
             <div class="col-6 padding-15 info">.col-6</div>
         </div>
-        <h3>表格</h3>
+        <h3 id="table">表格</h3>
         <p>使用表格非常简单，您甚至不用添加 class ：</p>
         <table>
             <thead>
@@ -99,7 +99,7 @@
                 </tr>
             </tbody>
         </table>
-        <h3>列表</h3>
+        <h3 id="list">列表</h3>
         <p>和普通的HTML类似：</p>
         <ul>
             <li>1111</li>
@@ -116,20 +116,20 @@
                 </ol>
             </li>
         </ul>
-        <h3>表单</h3>
+        <h3 id="form">表单</h3>
         <p>同样非常简单：</p>
         <form>
             <input type="text" placeholder="请输入用户名">
             <input type="password" placeholder="请输入密码">
             <button type="submit" class="btn pri">提交</button>
         </form>
-        <h3>卡片</h3>
+        <h3 id="card">卡片</h3>
         <p>只需添加 .card 类：</p>
         <div class="card"><h1>hello!</h1><p>一张卡片</p></div>
         <h3>IE 兼容模式</h3>
         <button class="btn pri"onclick="document.getElementById('style').href='./jianrong.css'">开启兼容模式</button>
         <h3>主题颜色</h3>
-        <p>只需将“--blue”变量改为你喜欢的颜色即可：</p>
-        <button class="btn pri" onclick="document.body.style.setProperty('--blue','#f1f')">修改颜色</button>
+        <p>只需将“--main”变量改为你喜欢的颜色即可：</p>
+        <button class="btn pri" onclick="document.body.style.setProperty('--main','#f1f')">修改颜色</button>
     </body>
 </html>

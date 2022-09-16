@@ -7,7 +7,7 @@
     --pri:#0d6efd;
     --warn:rgb(255,193,7);
     --success:rgb(25,135,84);
-    --info:rgb(13,202,240)
+    --info:rgb(13,202,240);
 }
 *{
     box-sizing: border-box;
@@ -151,7 +151,7 @@ h4{
 a:not(.btn){
     color: var(--main);
 }
-table{
+table,input,.w-100{
     width: 100%;
 }
 td, th {
@@ -177,7 +177,6 @@ input{
     line-height: 1.618;
     border: 1px solid #ced4da;
     margin: 12px 0;
-    width: 100%;
 }
 .card{
     border: solid #d8d8d8;
