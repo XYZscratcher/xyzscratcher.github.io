@@ -168,7 +168,7 @@ input,.btn,.card{
 }
 input:focus{
     border: 1.618px solid var(--main);
-    /*box-shadow: 0 0 1.618px 4px skyblue;*/
+    outline:0;
 }
 input{
     display: block;
