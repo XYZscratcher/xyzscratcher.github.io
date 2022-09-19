@@ -8,7 +8,7 @@
     --warn:rgb(255,193,7);
     --success:rgb(25,135,84);
     --info:rgb(13,202,240);
-    --gray:reb(108,117,125);
+    --gray:rgb(108,117,125);
 }
 *{
     box-sizing: border-box;
