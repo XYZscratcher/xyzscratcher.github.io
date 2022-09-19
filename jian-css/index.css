@@ -26,13 +26,15 @@ p{
 .btn{
     color: var(--main);
     background-color: white;
-    border: solid var(--main);
     padding: 6px 10px;
     margin: 4px;
     font-size: calc(0.5vh + 10px);
     text-align: center;
     display: inline-block;
     cursor: pointer;
+}
+.btn:not(.pri,.warn,.info,.success){
+    border: solid var(--main);
 }
 /*color*/
 .pri,.warn,.info,.success{
