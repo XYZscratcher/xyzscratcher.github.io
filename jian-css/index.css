@@ -8,6 +8,7 @@
     --warn:rgb(255,193,7);
     --success:rgb(25,135,84);
     --info:rgb(13,202,240);
+    --gray:reb(108,117,125);
 }
 *{
     box-sizing: border-box;
@@ -32,10 +33,11 @@ p{
     text-align: center;
     display: inline-block;
     cursor: pointer;
+    border: none
 }
-.btn:not(.pri,.warn,.info,.success){
-    border: solid var(--main);
-}
+/*.btn:not(.pri,.warn,.info,.success){
+    border: none
+}*/
 /*color*/
 .pri,.warn,.info,.success{
     color: white;
