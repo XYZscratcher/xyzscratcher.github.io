@@ -35,9 +35,9 @@ p{
     cursor: pointer;
     border: none
 }
-/*.btn:not(.pri,.warn,.info,.success){
-    border: none
-}*/
+.btn:not(.pri,.warn,.info,.success){
+    border: solid var(--gray);
+}
 /*color*/
 .pri,.warn,.info,.success{
     color: white;
