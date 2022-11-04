@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jian-css/jian.css@master/main.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jian-css/jian.css@1.2.3/main.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jian-css/jian.css@master/tools.min.css">
     <title>XYZscratcher</title>
     <style>
@@ -12,12 +12,16 @@
             background: linear-gradient(#eef7ff, #fff) repeat-x top left;
         }
 
-        img {
+        #aboutme img {
             height: 160px;
         }
 
         .c {
             max-width: 600px;
+        }
+
+        .card a::before {
+            content: "项目详情→"
         }
     </style>
 </head>
@@ -28,20 +32,29 @@
     </header>
     <main class="c">
         <div id="aboutme">
-        <div class="mx-auto text-center pb-5">
-            <img src="https://avatars.githubusercontent.com/u/108533817?u=6221ee2e0d8ab4f68576ed910e6383cf44b4ff61&v=4"
-                class="rounded-circle">
-            <h1>XYZscratcher</h1>
-            <p>一个热爱编程的小学生</p>
-        </div>
+            <div class="mx-auto text-center pb-5">
+                <img src="https://avatars.githubusercontent.com/u/108533817?u=6221ee2e0d8ab4f68576ed910e6383cf44b4ff61&amp;v=4"
+                    class="rounded-circle">
+                <h1>XYZscratcher</h1>
+                <p>一个热爱编程的小学生</p>
+            </div>
             <p>目前六年级，喜欢唱、跳、rap、篮球。</p>
             <p>2022 年 1 月接触编程（scratch），追求极简主义。我很喜欢参与有趣的项目，交有趣的朋友~</p>
             <p>想更了解我的话，你可以看看<a href="/">我的博客</a>和<a href="//github.com/xyzscratcher">GitHub账号</a>。你可以通过<a
                     href="mailto:xyzscer@outlook.com">邮箱</a>联系我~
+            </p>
         </div>
-        <div id="project"></div>
-            
+        <div id="project">
+            <h2>我的项目</h2>
+            <div class="card">
+                <h3>jian.css</h3><iframe src="https://ghbtns.com/github-btn.html?user=jian-css&repo=jian.css&type=star&count=true" frameborder="0"
+                    scrolling="0" width="150" height="20" title="GitHub"></iframe>
+                <p>一个超级轻的 CSS 框架。<a href="//girhub.com/jian-css/jian.css"></a></p>
+            </div>
+
     </main>
+
+
 </body>
 
 </html>
